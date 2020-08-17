@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+/*---------------Hero Image*/
+#hero-image{
+    background-image: url("images/munch-hero-image.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
 
 /*---------------Navigation Bar */
 #nav-bar{
@@ -22,6 +29,7 @@
 .nav-btn{
     text-decoration: none;
     padding-left: 10px;
+    color: white;
 }
 
 /*---------------Logo */
@@ -31,4 +39,5 @@
     font-family: 'Do Hyeon', sans-serif;
     padding-left: 20px;
     padding-top: 20px;
+    color: white;
 }
