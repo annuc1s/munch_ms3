@@ -1,0 +1,8 @@
+/*----------------sets default margins and padding for all page content to */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
