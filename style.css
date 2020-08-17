@@ -47,12 +47,26 @@
 /*---------------Slogan and Book Now button*/
 .slogan{
     text-align: center;
-    color: white;
-    padding-top: 180px;
-    text-transform: uppercase;
-    font-family: 'Do Hyeon', sans-serif;
-    letter-spacing: 2px;
-    font-size: 25px;
-    text-shadow: 2px 2px 3px rgb(245, 224, 224);
+    padding-top: 190px;
+}
 
+.slogan h3{ 
+    color: white; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-shadow: 2px 2px 3px rgb(245, 224, 224);
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.book-now{
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: rgba(245, 224, 224, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
