@@ -8,3 +8,27 @@
   box-sizing: border-box;
 }
 
+
+/*---------------Navigation Bar */
+#nav-bar{
+    float: right;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.nav-btn{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/*---------------Logo */
+#logo{
+    float: left;
+    font-size: 35px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
