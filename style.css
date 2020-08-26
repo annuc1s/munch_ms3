@@ -95,7 +95,9 @@
 }
 
 .border {
-    margin: 15px 10%;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 1.5px solid black;  
 }
 
@@ -119,7 +121,34 @@
 }
 
 .menu img {
-    padding-top: 15px;
+    padding-top: 30px;
     width: 80%;
     height: auto;
 }
+
+/*---------------Footer*/
+
+footer {
+    margin-top: 15px;
+    height: 150px;
+    background-color: rgb(12, 1, 1);
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer_contact{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+    line-height: 60px;
+    font-size: 90%;
+    }
+
+.footer_contact h2{
+    line-height: 30px;
+}
+
+
