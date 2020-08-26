@@ -81,11 +81,11 @@
 
 /*---------------About (our story) information*/
 
-.about, #menu{
+.about, #menu {
     text-align: center;
 }
 
-.about h2, #menu h2{
+.about h2, #menu h2, .social-media{
     font-family: 'Do Hyeon', sans-serif;
     text-transform: uppercase;
     color: rgb(75, 51, 51);
@@ -127,6 +127,10 @@
 }
 
 /*---------------Footer*/
+.social-media {
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 footer {
     margin-top: 15px;
