@@ -81,11 +81,11 @@
 
 /*---------------About (our story) information*/
 
-.about{
+.about, .menu{
     text-align: center;
 }
 
-.about h2{
+.about h2, .menu h2{
     font-family: 'Do Hyeon', sans-serif;
     text-transform: uppercase;
     color: rgb(75, 51, 51);
@@ -116,4 +116,10 @@
     padding: 8px 15px;
     border-radius: 4px;
     margin-bottom: 15px;
+}
+
+.menu img {
+    padding-top: 15px;
+    width: 80%;
+    height: auto;
 }
