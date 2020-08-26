@@ -132,6 +132,10 @@
     text-align: center;
 }
 
+.social-media a{
+    color: rgb(75, 51, 51);
+}
+
 footer {
     margin-top: 15px;
     height: 150px;
