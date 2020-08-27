@@ -172,3 +172,9 @@ footer {
     background-color: rgb(12, 1, 1);
     height: 80px;
 }
+
+/*--------------- section alignment*/
+
+#find-us, #contact-form{
+    text-align: center;
+}
