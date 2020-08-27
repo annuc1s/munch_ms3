@@ -176,10 +176,15 @@ footer {
 /*--------------- section alignment*/
 #find-us, #contact-form{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 #google-location{
     height: 300px;
     width: 300px;
     border: 1.5px solid black; 
+
 }
+
