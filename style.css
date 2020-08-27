@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/*----------------------------- Nav-bar, logo and footer for all pages*/
+/*----------------------------- Nav-bar, logo, main headings and footer for all pages*/
 /*---------------Navigation Bar */
 #nav-bar{
     float: right;
@@ -69,6 +69,17 @@ footer {
     line-height: 30px;
 }
 
+/*---------------Main Headings and social media icons */
+.about h2, #menu h2, .social-media, #find-us h2, #contact-form h2{
+    font-family: 'Do Hyeon', sans-serif;
+    text-transform: uppercase;
+    color: rgb(75, 51, 51);
+    padding-top: 30px;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgb(209, 178, 178)
+}
+
+
 /*----------------------------- Home Page, index.html*/
 /*---------------Hero Image*/
 #hero-image{
@@ -111,14 +122,6 @@ footer {
     text-align: center;
 }
 
-.about h2, #menu h2, .social-media, #find-us h2, #contact-form h2{
-    font-family: 'Do Hyeon', sans-serif;
-    text-transform: uppercase;
-    color: rgb(75, 51, 51);
-    padding-top: 30px;
-    font-size: 40px;
-    text-shadow: 2px 2px 3px rgb(209, 178, 178)
-}
 
 .border {
     margin-top: 30px;
