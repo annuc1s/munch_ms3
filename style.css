@@ -159,4 +159,9 @@ footer {
     line-height: 30px;
 }
 
-
+/*--------------- Contact Page, contact.html*/
+/*--------------- nav-bar*/
+#background-color {
+    background-color: rgb(12, 1, 1);
+    height: 80px;
+}
