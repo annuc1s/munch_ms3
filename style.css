@@ -111,7 +111,7 @@ footer {
     text-align: center;
 }
 
-.about h2, #menu h2, .social-media{
+.about h2, #menu h2, .social-media, #find-us h2, #contact-form h2{
     font-family: 'Do Hyeon', sans-serif;
     text-transform: uppercase;
     color: rgb(75, 51, 51);
