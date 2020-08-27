@@ -181,10 +181,18 @@ footer {
 
 }
 
+/*--------------- 2 column layout for google-locations and contact-detail*/
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+}
+
+
 #google-location{
     height: 300px;
     width: 300px;
     border: 1.5px solid black; 
-
 }
-
