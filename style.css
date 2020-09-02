@@ -211,4 +211,14 @@ footer {
     padding-left: 50px;
 }
 
-
+.get-in-touch input[type=text],  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #003df2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+    
+}
