@@ -232,3 +232,16 @@ input#lname {
     width: 99%;
     float: right;
 }
+
+.get-in-touch input[type=submit]{
+    font-family: 'Gothic A1', sans-serif;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: rgba(75, 51, 51, 0.5);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
