@@ -84,5 +84,16 @@
        defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk&callback=initMap">
     </script>
 
+    <!--Contact form linked to EmailJS-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_dYXdGeorqYYUJK0lclK57");
+            emailjs.send("gmail", "template_o4rvgv4", {name: "anna", notes: "hello there"});
+        })();
+    </script>
+
   </body>
 </html>
