@@ -41,7 +41,7 @@
     
     <!--Contact-form layout with content-->
     <div class="get-in-touch">
-        <form>
+        <form onsubmit="return sendMail(this);"> 
         <div class="row">
             <div class="column">
                 <input type="text" id="fname" name="firstname" placeholder="First Name" required>
@@ -67,6 +67,7 @@
         <h6 class="copyright"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
     </footer>
     
+    <script src="assets/js/sendEmail.js"></script>
     <!--Google Maps APIKey-->
     <script>
     //varAPIKEY = "AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk";
@@ -91,7 +92,6 @@
     <script type="text/javascript">
         (function(){
             emailjs.init("user_dYXdGeorqYYUJK0lclK57");
-            emailjs.send("gmail", "template_o4rvgv4", {name: "anna", notes: "hello there"});
         })();
     </script>
 
