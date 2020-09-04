@@ -274,26 +274,28 @@ input#lname {
 /*---------------------Responsive Sizing*/
 
 @media screen and (max-width: 900px){
-    .icon i {
+    .icon i{
         display: block;
-    }
-
-    .icon {
         float: right;
+    }
+    .icon {
         font-size: 30px;
         padding-right: 20px;
         padding-top: 20px;
         color: white;
         text-decoration: none;
     }
-    #nav-items {
-        display: none;
-        text-align: right;
 
+    #nav-bar{
+        display: none; 
+        position: absolute;
+        right: 0px;
+        top: 50px;
     }
 
-    #nav-bar br{
+    #nav-bar ul li{
         display: block;
+        text-align: right;
     }
 
 }
