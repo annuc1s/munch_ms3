@@ -35,7 +35,7 @@
 }
 
 /*---------------Logo */
-#logo{
+#logo a{
     float: left;
     font-size: 35px;
     font-family: 'Do Hyeon', sans-serif;
@@ -43,6 +43,7 @@
     padding-top: 20px;
     color: white;
     font-weight: 400;
+    text-decoration: none;
 }
 
 /*---------------Footer */
