@@ -14,15 +14,20 @@
   <body>
     <!--Logo and Navigation Bar-->
     <header>
-      <div id="background-color">
-        <div id="logo"><a href="index.html">MUNCH!</a></div>
+      <div id="hero-image">
+        <div id="logo"><a>MUNCH!</a></div>
+        <!--Mobile Navigation Menu icon and function activated onclick-->
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         <div id="nav-bar">
-          <a class="nav-btn" href="index.html">HOME</a>
-          <a class="nav-btn" href="index.html#menu">MENU</a>
-          <a class="nav-btn" href="contact.html">CONTACT</a>
-          <a class="nav-btn book-tbl" href="#">BOOK TABLE</a>
+            <a class="nav-btn" href="index.html">HOME</a> <br>
+            <a class="nav-btn" href="#menu">MENU</a><br>
+            <a class="nav-btn" href="contact.html">CONTACT</a><br>
+            <a class="nav-btn book-tbl" href="#">BOOK TABLE</a>
         </div>
-      </div>
+        </div>
     </header>
     
     <!--Find us section, with google maps location and contact details-->
@@ -98,5 +103,16 @@
         })();
     </script>
 
+      <!--Mobile Navigation Menu function-->
+    <script>
+    function myFunction() {
+        var x = document.getElementById("nav-bar");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+            }
+    }
+    </script>
   </body>
 </html>
