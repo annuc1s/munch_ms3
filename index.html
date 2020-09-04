@@ -19,6 +19,10 @@
           <a class="nav-btn" href="contact.html">CONTACT</a>
           <a class="nav-btn book-tbl" href="#">BOOK TABLE</a>
         </div>
+        <!--Mobile Navigation Menu icon and function activated onclick-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
         <!--Hero Image and slogan with button to direct to Book Table page-->
         <div class="slogan">
             <h3>We will save you a seat</h3>
@@ -62,4 +66,16 @@
         <h6 class="copyright"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
     </footer>
   </body>
+
+  <!--Mobile Navigation Menu function-->
+  <script>
+    function myFunction() {
+        var x = document.getElementById("nav-bar");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+            }
+    }
+</script>
 </html>

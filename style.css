@@ -261,8 +261,11 @@ input#lname {
     transition: 0.5s;
 }
 
-
 /*---------------------Responsive Sizing*/
+
+@media screen and (max-width: 900px){
+
+}
 
 @media screen and (max-width: 700px){
 
@@ -279,5 +282,5 @@ input#lname {
 
     h6.copyright{
         display: none;
-    }
+
 }
