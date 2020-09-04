@@ -34,6 +34,9 @@
     padding-bottom: 2px;
 }
 
+.icon i{
+    display: none;
+}
 /*---------------Logo */
 #logo a{
     float: left;
@@ -264,7 +267,13 @@ input#lname {
 /*---------------------Responsive Sizing*/
 
 @media screen and (max-width: 900px){
+    .icon i {
+        display: block;
+    }
 
+    #nav-bar {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px){
