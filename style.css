@@ -17,7 +17,10 @@
     padding-right: 20px;
     padding-top: 20px;
     font-weight: 400;
+}
 
+#nav-bar br{
+    display: none;
 }
 
 .nav-btn{
@@ -281,7 +284,14 @@ input#lname {
     }
     #nav-bar {
         display: none;
+        text-align: right;
+
     }
+
+    #nav-bar br{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 700px){
