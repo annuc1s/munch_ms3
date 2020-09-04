@@ -261,3 +261,23 @@ input#lname {
     transition: 0.5s;
 }
 
+
+/*---------------------Responsive Sizing*/
+
+@media screen and (max-width: 700px){
+
+    .hide{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .footer_contact{
+        font-size: 70%;
+    }
+
+    h6.copyright{
+        display: none;
+    }
+}
