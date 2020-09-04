@@ -271,6 +271,14 @@ input#lname {
         display: block;
     }
 
+    .icon {
+        float: right;
+        font-size: 30px;
+        padding-right: 20px;
+        padding-top: 20px;
+        color: white;
+        text-decoration: none;
+    }
     #nav-bar {
         display: none;
     }
