@@ -18,15 +18,19 @@
     padding-top: 20px;
     font-weight: 400;
 }
+#nav-bar ul{
+    list-style-type: none;
+}
 
-#nav-bar br{
-    display: none;
+#nav-bar ul li{
+    display: inline;
 }
 
 .nav-btn{
     text-decoration: none;
     padding-left: 10px;
     color: white;
+
 }
 
 .book-tbl{
@@ -282,7 +286,7 @@ input#lname {
         color: white;
         text-decoration: none;
     }
-    #nav-bar {
+    #nav-items {
         display: none;
         text-align: right;
 
