@@ -1,87 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--FontAwesome Library-->
-    <script src="https://kit.fontawesome.com/a65927cba6.js" crossorigin="anonymous"></script>
-    <!--JQuery Library-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--FontAwesome Library-->
+	<script src="https://kit.fontawesome.com/a65927cba6.js" crossorigin="anonymous"></script>
+	<!--JQuery Library-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Munch!</title>
-  </head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Munch!</title>
+</head>
 
-  <body>
-    <!--Logo and Navigation Bar-->
-    <header>
-      <div id="contact-nav-container">
-        <div id="logo"><a href="index.html">MUNCH!</a></div>
-        <!--Mobile Navigation Menu icon and function activated onclick-->
-    <div style="position:relative">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        <nav id="nav-bar" class="nav-bar-contact">
-            <ul>
-                <li><a class="nav-btn" href="index.html">HOME</a></li>
-                <li><a class="nav-btn" href="index.html#menu">MENU</a></li>
-                <li><a class="nav-btn" href="contact.html">CONTACT</a></li>
-                <li><a class="nav-btn book-tbl" href="#">BOOK TABLE</a></li> 
-            </ul>
-        </nav>
-        </div>
-      </div>
-    </header>
-    
-    <!--Find us section, with google maps location and contact details-->
-    <section id="find-us">
-        <h2>Find us</h2>
-        <div class="row">
-            <div class="column" id="google-location"></div>
-            <div class="column hide" id="contact-details">
-                <b>Phone:</b> +353711234567 <br>
-                <b>Email:</b> lunch@munch.ie <br>
-                <b>Address:</b><br><p> Munch,O'Connell St.,<br> Sligo, Co.Sligo <br>Ireland</p> 
+<body>
+	<!--Logo and Navigation Bar-->
+	<header>
+		<div id="contact-nav-container">
+			<div id="logo"><a href="index.html">MUNCH!</a></div>
+			<!--Mobile Navigation Menu icon and function activated onclick-->
+			<div style="position:relative">
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+				<nav id="nav-bar" class="nav-bar-contact">
+					<ul>
+						<li><a class="nav-btn" href="index.html">HOME</a></li>
+						<li><a class="nav-btn" href="index.html#menu">MENU</a></li>
+						<li><a class="nav-btn" href="contact.html">CONTACT</a></li>
+						<li><a class="nav-btn book-tbl" href="#">BOOK TABLE</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!--Find us section, with google maps location and contact details-->
+	<section id="find-us">
+		<h2>Find us</h2>
+		<div class="row">
+			<div class="column" id="google-location"></div>
+			<div class="column hide" id="contact-details">
+				<b>Phone:</b> +353711234567 <br>
+				<b>Email:</b> lunch@munch.ie <br>
+				<b>Address:</b><br>
+				<p> Munch,O'Connell St.,<br> Sligo, Co.Sligo <br>Ireland</p>
+			</div>
+		</div>
+	</section>
+
+	<!--Get in touch section, with a contact form-->
+	<section id="contact-form">
+		<h2>Get in touch</h2>
+
+		<!--Contact-form layout with content-->
+		<div class="get-in-touch">
+			<form onsubmit="return sendMail(this);">
+				<div class="row">
+					<div class="column">
+						<input type="text" id="fname" name="firstname" placeholder="First Name" required>
             </div>
-        </div>
-    </section>
-   
-    <!--Get in touch section, with a contact form-->
-    <section id="contact-form">
-        <h2>Get in touch</h2>
-    
-    <!--Contact-form layout with content-->
-    <div class="get-in-touch">
-        <form onsubmit="return sendMail(this);"> 
-        <div class="row">
-            <div class="column">
-                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+						<div class="column">
+							<input type="text" id="lname" name="lastname" placeholder="Second Name" required>
             </div>
-            <div class="column">
-                <input type="text" id="lname" name="lastname" placeholder="Second Name" required>
-            </div>
-        </div>
-                <input type="text" id="email" name="email" placeholder="Email" required>
-                <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                <textarea name="message" id="message" rows="10" placeholder="Message Here..." required></textarea>
-                <input type="submit" value="Submit" class="reset">
+						</div>
+						<input type="text" id="email" name="email" placeholder="Email" required>
+						<input type="text" id="subject" name="subject" placeholder="Subject" required>
+						<textarea name="message" id="message" rows="10" placeholder="Message Here..." required></textarea>
+						<input type="submit" value="Submit" class="reset">
         </form>
-    </div>
-    </section>
+					</div>
+	</section>
 
-    <!--Footer with contact info-->
-    <footer>
-        <div class="footer_contact">
-            <h2>Munch, O'Connell St, Sligo, Co.Sligo<br></h2> 
-            <h3>+353711234567 | <i>lunch@munch.ie</i></h3>
-        </div>
-        <h6 class="copyright hide"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
-    </footer>
-    
-    <script src="assets/js/sendEmail.js"></script>
-    <!--Google Maps APIKey-->
-    <script>
-    //varAPIKEY = "AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk";
+	<!--Footer with contact info-->
+	<footer>
+		<div class="footer_contact">
+			<h2>Munch, O'Connell St, Sligo, Co.Sligo<br></h2>
+				<h3>+353711234567 | <i>lunch@munch.ie</i></h3>
+		</div>
+		<h6 class="copyright hide"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
+	</footer>
+
+	<script src="assets/js/sendEmail.js"></script>
+	<!--Google Maps APIKey-->
+	<script>
+		//varAPIKEY = "AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk";
         function initMap() {
     //The location of Oconnell Street in Sligo
             var oconnellstr ={lat: 54.271374, lng:-8.475250};
@@ -90,25 +92,24 @@
                 document.getElementById('google-location'), {zoom:15, center: oconnellstr});
             var marker = new google.maps.Marker({position: oconnellstr, map: map}); 
         }
-    </script>
-    <!--Load the API from the specified URL with custom APIKEY-->
-    <script 
-       defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk&callback=initMap">
-    </script>
+	</script>
+	<!--Load the API from the specified URL with custom APIKEY-->
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtVUKreFqu4NdtKT_ExJHoPTyC9YaZKk&callback=initMap">
+	</script>
 
-    <!--Contact form linked to EmailJS-->
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
+	<!--Contact form linked to EmailJS-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
             emailjs.init("user_dYXdGeorqYYUJK0lclK57");
         })();
-    </script>
+	</script>
 
-      <!--Mobile Navigation Menu function-->
-  <script>
-    function myFunction() {
+	<!--Mobile Navigation Menu function-->
+	<script>
+		function myFunction() {
         var x = document.getElementById("nav-bar");
         if (x.style.display === "block") {
             x.style.display = "none";
@@ -116,6 +117,7 @@
             x.style.display = "block";
             }
     }
-</script>
-  </body>
+	</script>
+</body>
+
 </html>

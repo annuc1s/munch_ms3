@@ -1,79 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/a65927cba6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Munch!</title>
-  </head>
 
-  <body>
-    <!--Logo and Navigation Bar-->
-    <header>
-    <div id="hero-image">
-        <div id="logo"><a>MUNCH!</a></div>
-        <!--Mobile Navigation Menu icon and function activated onclick-->
-        <div style="position:relative">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-btn" href="index.html">HOME</a></li>
-                <li><a class="nav-btn" href="#menu">MENU</a></li>
-                <li><a class="nav-btn" href="contact.html">CONTACT</a></li>
-                <li><a class="nav-btn book-tbl" href="#">BOOK TABLE</a></li> 
-            </ul>
-        </nav>
-        </div>
-        <!--Hero Image and slogan with button to direct to Book Table page-->
-        <div class="slogan">
-            <h3>We will save you a seat</h3>
-            <button class="book-now">Book Now!</button>
-        </div>
-    </div>
-    </header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://kit.fontawesome.com/a65927cba6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" />
+	<title>Munch!</title>
+</head>
 
-    <!--Information about the business and link to contact page-->
-    <section class="about">
-        <h2>Our Story</h2>
-        <div class="border">
-        <p >We are located on the picturesque west coast of Ireland, serving the finest gourmet burgers
-        since 2018. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Fugit, facere ducimus! Culpa deleniti pariatur, 
-        expedita itaque id, asperiores officiis dolorem qui in modi nemo ullam beatae repellendus aut commodi rerum.
-        </p>
-        <a href="contact.html#find-us"><button class="find-us">Have a question?</button></a>
-        </div>
+<body>
+	<!--Logo and Navigation Bar-->
+	<header>
+		<div id="hero-image">
+			<div id="logo"><a>MUNCH!</a></div>
+			<!--Mobile Navigation Menu icon and function activated onclick-->
+			<div style="position:relative">
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+				<nav id="nav-bar">
+					<ul>
+						<li><a class="nav-btn" href="index.html">HOME</a></li>
+						<li><a class="nav-btn" href="#menu">MENU</a></li>
+						<li><a class="nav-btn" href="contact.html">CONTACT</a></li>
+						<li><a class="nav-btn book-tbl" href="#">BOOK TABLE</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!--Hero Image and slogan with button to direct to Book Table page-->
+			<div class="slogan">
+				<h3>We will save you a seat</h3>
+				<button class="book-now">Book Now!</button>
+			</div>
+		</div>
+	</header>
+
+	<!--Information about the business and link to contact page-->
+	<section class="about">
+		<h2>Our Story</h2>
+		<div class="border">
+			<p>We are located on the picturesque west coast of Ireland, serving the finest gourmet burgers
+				since 2018. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Fugit, facere ducimus! Culpa deleniti pariatur,
+				expedita itaque id, asperiores officiis dolorem qui in modi nemo ullam beatae repellendus aut commodi
+				rerum.
+			</p>
+			<a href="contact.html#find-us"><button class="find-us">Have a question?</button></a>
+		</div>
+	</section>
+
+	<!--Image of the menu-->
+	<section id="menu">
+		<h2>Menu</h2>
+		<img src="images/munch_menu.jpg" alt="munch lunch menu serving the finest burgers everyday from 12pm to 5pm">
     </section>
 
-    <!--Image of the menu-->
-    <section id="menu">
-        <h2>Menu</h2>
-        <img src="images/munch_menu.jpg" alt="munch lunch menu serving the finest burgers everyday from 12pm to 5pm">
-    </section>
+		<!--Hyperlinks to other social media outlets-->
+		<section class="social-media">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+			<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+		</section>
 
-    <!--Hyperlinks to other social media outlets-->
-    <section class="social-media">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a> 
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a> 
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-    </section>
+		<!--Footer with contact info-->
+		<footer>
+			<div class="footer_contact">
+				<h2>Munch, O'Connell St, Sligo, Co.Sligo<br></h2>
+					<h3>+353711234567 | <i>lunch@munch.ie</i></h3>
+			</div>
+			<h6 class="copyright"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
+		</footer>
+</body>
 
-    <!--Footer with contact info-->
-    <footer>
-        <div class="footer_contact">
-            <h2>Munch, O'Connell St, Sligo, Co.Sligo<br></h2> 
-            <h3>+353711234567 | <i>lunch@munch.ie</i></h3>
-        </div>
-        <h6 class="copyright"><i class="far fa-copyright"></i> Munch <i>2020</i></h4>
-    </footer>
-  </body>
-
-  <!--Mobile Navigation Menu function-->
-  <script>
-    function myFunction() {
+<!--Mobile Navigation Menu function-->
+<script>
+	function myFunction() {
         var x = document.getElementById("nav-bar");
         if (x.style.display === "block") {
             x.style.display = "none";
@@ -82,4 +84,5 @@
             }
     }
 </script>
+
 </html>
