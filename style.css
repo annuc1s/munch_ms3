@@ -277,6 +277,7 @@ input#lname {
     .icon i{
         display: block;
         float: right;
+        margin: 20px;
     }
     .icon {
         font-size: 30px;
@@ -290,22 +291,32 @@ input#lname {
         display: none; 
         position: absolute;
         right: 0px;
-        top: 50px;
+        top: 60px;
+        line-height: 30px;
+        background-color: rgba(75, 51, 51, 0.5);
+        width: 100%;
+        padding-top: 0px;
     }
 
+    .book-tbl{
+        line-height: 40px;
+    }
     #nav-bar ul li{
         display: block;
         text-align: right;
+        font-size: 1.3rem;
     }
 
-}
 
 @media screen and (max-width: 700px){
 
     .hide{
         display: none;
     }
-
+    .slogan{
+        padding-top: 170px;
+    }
+    
 }
 
 @media screen and (max-width: 400px){
@@ -315,5 +326,8 @@ input#lname {
 
     h6.copyright{
         display: none;
-
+    }
+    .slogan h3{
+        font-size: 65px;
+    }
 }
