@@ -17,17 +17,19 @@
       <div id="background-color">
         <div id="logo"><a href="index.html">MUNCH!</a></div>
         <!--Mobile Navigation Menu icon and function activated onclick-->
+    <div style="position:relative">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-        <nav id="nav-bar-contact">
+        <nav id="nav-bar" class="nav-bar-contact">
             <ul>
                 <li><a class="nav-btn" href="index.html">HOME</a></li>
-                <li><a class="nav-btn" href="index.html#menu">MENU</a></li>
+                <li><a class="nav-btn" href="#menu">MENU</a></li>
                 <li><a class="nav-btn" href="contact.html">CONTACT</a></li>
                 <li><a class="nav-btn book-tbl" href="#">BOOK TABLE</a></li> 
             </ul>
         </nav>
+        </div>
       </div>
     </header>
     
@@ -107,7 +109,7 @@
       <!--Mobile Navigation Menu function-->
   <script>
     function myFunction() {
-        var x = document.getElementById("nav-bar-contact");
+        var x = document.getElementById("nav-bar");
         if (x.style.display === "block") {
             x.style.display = "none";
         } else {

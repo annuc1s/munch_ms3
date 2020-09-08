@@ -296,6 +296,7 @@ input#lname {
         background-color: rgba(75, 51, 51, 0.5);
         width: 100%;
         padding-top: 0px;
+
     }
 
     .book-tbl{
@@ -309,23 +310,11 @@ input#lname {
     
     }
 
-    #nav-bar-contact{
-        display: none; 
-        line-height: 30px;
+    #nav-bar.nav-bar-contact{
+        position: unset;
         background-color: rgb(12, 1, 1);
-        width: 100%;
-        padding-top: 0px;
-        margin-top: 40px;
-    }
-
-    #responsive-contact-nav{
-        padding-top: 20px;
-    }
-#nav-bar-contact ul li {
-        display: block;
-        text-align: right;
-        font-size: 1.3rem;
-        margin-right: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
 @media screen and (max-width: 700px){
